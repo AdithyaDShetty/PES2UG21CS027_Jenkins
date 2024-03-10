@@ -9,7 +9,7 @@ pipeline
       steps
       {
         build 'PES2UG21CS027-1'
-        sh 'g++ test.cpp -o output'
+        sh 'g++ L.cpp -o output'
       }
     }
 
